@@ -1,0 +1,40 @@
+Name          640x480p60
+Standard      Historical
+VIC                    1
+Short Name       DMT0659
+Aspect Ratio         4:3
+
+Pixel Clock       25.175 MHz
+TMDS Clock       251.750 MHz
+Pixel Time          39.7 ns ±0.5%
+Horizontal Freq.  31.469 kHz
+Line Time           31.8 μs
+Vertical Freq.    59.940 Hz
+Frame Time          16.7 ms
+
+Horizontal Timings
+Active Pixels        640
+Front Porch           16
+Sync Width            96
+Back Porch            48
+Blanking Total       160
+Total Pixels         800
+Sync Polarity        neg
+
+Vertical Timings
+Active Lines         480
+Front Porch           10
+Sync Width             2
+Back Porch            33
+Blanking Total        45
+Total Lines          525
+Sync Polarity        neg
+
+Active Pixels    307,200
+Data Rate           0.60 Gbps
+
+Frame Memory (Kbits)
+ 8-bit Memory      2,400
+12-bit Memory      3,600
+24-bit Memory      7,200
+32-bit Memory      9,600
