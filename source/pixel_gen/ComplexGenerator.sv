@@ -40,7 +40,7 @@ module ComplexGenerator #(
 
     CosLut cos2(
 	    .clock(clk_pixel),
-        .address_a(t + x[COUNTER_WIDTH-1:COUNTER_WIDTH-8] + 8'd_128),
+        .address_a(t + x[COUNTER_WIDTH-1:COUNTER_WIDTH-8] + y[COUNTER_WIDTH-1:COUNTER_WIDTH-8] + 8'd_128),
 	    .address_b('0),
 	    .q_a(mid[2]),
 	    .q_b()

@@ -37,8 +37,8 @@ module HdmiController (
     Encoder g_enc(
         .clk_pixel(clk_pixel),
         .reset_n(reset_n),
-        .hsync(hsync),
-        .vsync(vsync),
+        .hsync('0),
+        .vsync('0),
         .en(en),
         .in(g),
         .out(hdmi_g_enc)
@@ -47,8 +47,8 @@ module HdmiController (
     Encoder b_enc(
         .clk_pixel(clk_pixel),
         .reset_n(reset_n),
-        .hsync(hsync),
-        .vsync(vsync),
+        .hsync('0),
+        .vsync('0),
         .en(en),
         .in(b),
         .out(hdmi_b_enc)
